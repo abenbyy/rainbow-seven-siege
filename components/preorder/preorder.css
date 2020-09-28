@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'R6S-Light';
+    src: url('../../assets/font/ScoutCond-Light.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: R6S-Light, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#logo{
+    width: 400px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.bigger-text{
+    font-size: 45px;
+}
+
+.medium-text{
+    font-size: 20px;
+}
+
+#form-cont{
+    background-image: url('../../assets/backgrounds/r6s-bg-black.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#form>div{
+    margin: 10px 0;
+}
+
+input:not([type=checkbox]), select, textarea{
+    width: 100%;
+}
+
+input, select, textarea{
+    background-color: black;
+    border: 2px solid black;
+    border-color: white;   
+}
+
+input:not([type=checkbox]), select{
+    height: 30px;
+} 
+
+
+textarea{
+    height: 50px;
+    line-height: 1;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: solid;
+    border-color: white;
+    padding: 10px;
+    
+}
+
+button:hover{
+    background-color: #36a9e0;
+    box-shadow:0px 0px 50px #36a9e0;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-row>div{
+    margin: 10px 0;
+    width: calc(100vw/8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row>div>img{
+    width: 30px;
+}

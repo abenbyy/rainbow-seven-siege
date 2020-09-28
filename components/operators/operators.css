@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'R6S-Light';
+    src: url('../../assets/font/ScoutCond-Light.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: R6S-Light, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#logo{
+    width: 400px;
+    height: 100px;
+    margin:10px 0 ;
+}
+@media only screen and (min-width: 800px){
+    .gigantic-text{
+        font-size: 55px;
+    }
+
+    .bigger-text{
+        font-size: 40px;
+    }
+
+    .medium-text{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 799px){
+    .gigantic-text{
+        font-size: 35px;
+    }
+
+    .bigger-text{
+        font-size: 24px;
+    }
+
+    .medium-text{
+        font-size: 14px;
+    }
+}
+
+.operator-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../../assets/backgrounds/op-background_2.jpg);
+    background-size: cover;
+}
+
+.operator-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(51, 68, 82);
+    width: fit-content;
+    margin: 20px 20px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.operator-cont:hover{
+    background-color: #36a9e0;
+    box-shadow:0px 0px 50px #36a9e0;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.operator-detail{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('../../assets/backgrounds/r6s-bg-black.jpg');
+    width: 100%;
+    
+    height: fit-content;
+}

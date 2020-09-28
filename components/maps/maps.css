@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'R6S-Light';
+    src: url('../../assets/font/ScoutCond-Light.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: R6S-Light, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#logo{
+    width: 400px;
+    height: 100px;
+    margin:10px 0 ;
+}
+
+#main-cont{
+    width: 100%;
+    height: fit-content;
+    background-image: url(../../assets/backgrounds/r6s-bg-black.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.map-cont{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.map-img>img{
+    width: 400px;
+}
+
+.map-cont:hover{
+    background-color: #36a9e0;
+    box-shadow:0px 0px 50px #36a9e0;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.map-detail{
+    position: absolute;
+    bottom: 7px;
+}
+
+.bigger-text{
+    font-size: 50px;
+}
